@@ -60,6 +60,12 @@ newnode.innerHTML='<div class="map-zhong-gonggao-1-logo">批条</div><div class=
 
 fabu.insertBefore( newnode,fabu.childNodes[0]);
 
+var sushe=document.getElementsByName('sushe');
+for(var i=0;i<sushe.length;i++){
+	if (sushe[i].className=='sushe-box-select') {
+		(sushe[i].onclick())
+	}
+}
 }
 
 }
