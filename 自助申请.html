@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>scnustuu</title>
+	<link rel="stylesheet" type="text/css" href="H:\网站\scnustuu\自助申请.css">
+<script language="javascript" src="H:\网站\scnustuu\自助申请.js"></script>
+</head>
+<body>
+<div>
+	<div class="dingbu">
+		<div class="dingbu-zhong">
+			<form action="https://www.so.com/" target="_blank" method="get" class="dingbu-zhong-1" style="border: none;position: absolute;top: 1px;right: 400px;width: 200px;height: 80%;background-color: #696969;border-radius: 5px;">
+				<input class="search-input" type="search" placeholder="输入想搜索的内容" id="sousuo-input">
+				<input class="search-submit" type="submit" value="搜索" id="sousuo-button">
+		    </form>
+			<a href="H:/网站/scnustuu/失物寻回.html" class="dingbu-zhong-1">失物寻回系统</a>
+			<a href="H:/网站/scnustuu/意见收集.html" class="dingbu-zhong-1">意见收集系统</a>
+			<a href="H:/网站/scnustuu/自助申请.html" class="dingbu-zhong-1">自助申请系统</a>
+		</div>
+		
+	</div>
+
+	<div class="huanchong">
+		
+	</div>
+
+	<div>
+			<a href="H:\网站\scnustuu\首页.html" ><img src="H:\网站\scnustuu\penguins.jpg" class="tplz-shouye"></a>
+	   </div>
+
+    <div class="map">
+    	
+    	<div class="map-zhong">
+    		<div class="map-zhong-1"><h1>海报自助申请系统</h1></div>
+
+    		<div class="map-zhong-2"><a href="" onclick='guiding()' >《请阅读申请规定》</a></div>
+
+    		<form>
+    			<div class="map-zhong-4" id="shenqing">
+    				<div id="input-zuzhi">申请组织名称：<br><input type="text" id="input-zuzhi-1" style="width: 100px;" maxlength="10"></div>
+    			    <div id="input-neirong">海报内容：<br><textarea id="input-neirong-1" style="height: 100px;width: 300px;"></textarea><br><br>请上传海报整体照片：<input type="file" value="上传海报整体照片"></div>
+    			    <div id="input-riqi">请选择你要申请的日期：<input type="week" id="input-riqi-1"></div>
+    			    <div id="button-next" onclick="zhankai()">下一步</div>  		
+    		    </div>
+    	        <div class="map-zhong-3" id="map">
+    	        	<div class="map-title">请点击<span>方框</span>选择你要申请粘贴海报的宿舍楼栋</div>
+    	        	<div class="sushe-box" id="sushe19" name='sushe' >19</div>
+    			    <div class="sushe-box" id="sushe18" name='sushe' >18</div>
+    			    <div class="sushe-box" id="sushe17" name='sushe' >17</div>
+    			    <div class="sushe-box" id="sushe16" name='sushe' >16</div>
+    			    <div class="sushe-box" id="sushe15" name='sushe' >15</div>
+    			    <div class="sushe-box" id="sushe14" name='sushe' >14</div>
+    			    <div class="sushe-box" id="sushe13" name='sushe' >13</div>
+    			    <div class="sushe-box" id="sushe12" name='sushe' >12</div>
+    			    <div class="sushe-box" id="sushe11" name='sushe' >11</div>
+    			    <div class="sushe-box" id="sushe10" name='sushe' >10</div>
+    			    <div style="background-color: #9bcd9b;height: 60px;width: 60px;z-index: 2;border-radius: 50%;text-align: center;font-size: 30px;font-weight: bold;line-height: 55px;" id="yuanguang">圆</div>
+    			    <div class="sushe-box" id="sushe01" name='sushe' >01</div>
+    			    <div class="sushe-box" id="sushe02" name='sushe' >02</div>
+    			    <div class="sushe-box" id="sushe03" name='sushe' >03</div>
+    			    <div class="sushe-box" id="sushe04" name='sushe' >04</div>
+    			    <div class="sushe-box" id="sushe05" name='sushe' >05</div>
+    			    <div class="sushe-box" id="sushe06" name='sushe' >06</div>
+    			    <div class="sushe-box" id="sushe07" name='sushe' >07</div>
+    			    <div class="sushe-box" id="sushe08" name='sushe' >08</div>
+    			    <div style="background-color: #9bcd9b;height: 60px;width: 80px;z-index: 2;text-align: center;font-size: 30px;font-weight: bold;line-height: 55px;" id="fantang" onclick="fantang()">楠</div>
+    			    <div id="tips" style="display: none;"></div>
+    			    <a id="map-submit" onclick="haibaotijiao()"> 提交申请</a>	
+    	        </div>
+ 		    </form>	
+
+ 		    <div class="map-zhong-gonggao" id="map-zhong-gonggao">
+    	    	
+    	    </div>
+    	</div>
+
+
+
+    </div>
+
+
+
+
+
+	<footer class="footer" id="footer">
+		<div class="footer-zhong">
+			<div class="footer-zhong-1">
+				<div class="footer-zhong-2">
+					<h4>查看更多学校资讯</h4>
+					<a href="http://www.scnu.edu.cn/" target="_blank">华南师范大学官方网站</a><br><a href="http://youth.scnu.edu.cn/" target="_blank">紫荆青年官方网站</a>
+				</div> 
+			</div>
+			<div class="footer-zhong-1">
+				<div class="footer-zhong-2">
+					<h4>友情链接</h4>
+					<a href="https://weibo.com/sysuxsh" target="_blank">中山大学学生会</a><br><a href="https://weibo.com/scutstudentunion" target="_blank">华南理工大学学生会</a>
+				</div>
+			</div>
+			<div class="footer-zhong-1">
+				<div class="footer-zhong-2">
+					<h4>轻松一下</h4>
+					<a href='http://www.4399.com' target="_blank" style="text-decoration: none;">4399小游戏</a><br><a href="http://www.7k7k.com" target="_blank">7k7k小游戏</a>
+				</div>
+			</div>
+			<div class="footer-zhong-1">
+				<div class="footer-zhong-2">
+					<h4>联系我们</h4>
+					<a href="https://ditu.so.com/?t=map&src=onebox&new=1&dspall=0&k=%E5%8D%8E%E5%8D%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6&c=%E4%BD%9B%E5%B1%B1&new=1" target="_blank" style="text-decoration: none;">地址：华南师范大学学南四栋办公室</a><br>
+					<a>联系方式：13247516283</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

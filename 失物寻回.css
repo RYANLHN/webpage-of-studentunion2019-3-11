@@ -1,0 +1,61 @@
+*{font-size: 0.8em;}
+
+div{display: block;}
+
+.dingbu{padding: 0 20%;border: 1px red ;position: fixed;z-index: 10;background-color:#696969;}
+.dingbu-zhong{width: 1152px;border: 1px ;margin:auto;padding:auto;height:35px;}
+.dingbu-zhong-1{width: 15%;height: 33px;border:1px white;display: inline-block;margin:0;text-align: center;padding: auto;background-color: #ff8c00;border-radius: 5px;}
+#sousuo-button{border-radius: 4px;background: white;color: black;width: 40px;height: 28px;outline: none;margin: auto;padding: auto;position: absolute;top: 2px;}
+#sousuo-button:hover{cursor: pointer;box-shadow: 0 0 10px rgba(0,0,0,.8);}
+#sousuo-input{height: 25px;border: 0;margin: 2px;background-color: white;margin: auto;padding: auto;width: 150px;border-radius: 5px;position: absolute;right: 105px;top: 3px;}
+.dingbu-zhong a{text-decoration: none;color:black;line-height: 28px;margin: auto;cursor: pointer;font-size: 15px}
+.dingbu-zhong a:hover{color: white;font-weight: bold;font-size: 15px;background-color: #ee7600;box-shadow: 0 5px 3px rgba(0,0,0,.5); }
+
+.huanchong{border: 1px ;min-width: 320px;height: 50px;background-color: #f8f8ff;}
+
+.tplz-shouye{position: fixed;float: left;border: 1px red ;z-index: 10;left: 230px;top: 58px;border-radius: 50%;font-size: 50px;font-weight: bold;opacity: 0.8;box-shadow: 0px 2px 2px rgba(0,0,0,.5)}
+.tplz-shouye:hover{box-shadow: 5px 10px 10px 0 rgba(0,0,0,.5);opacity: 0.8;}
+.tplz-shouye:active{box-shadow:5px 10px 10px 0 rgba(0,0,0,.5) ,inset 6px  6px  10px rgba(0,0,0, .5);opacity: 1;}
+
+.shiwu{padding: 3px auto;border: 1px ;background-color: #f8f8ff;}
+.shiwu-zhong{width: 1000px;border: 1px ;margin:auto;padding:2px auto;}
+.shiwu-zhong-1{height: 70px;border:1px ;text-align: center;padding: 15px;position: absolute;right: 200px;}
+.shiwu-zhong-1 div{margin: auto;height: 50px;width: 150px;background-color: #43cd80;color: #ffffff;font-size: 30px;font-weight: bold;cursor: pointer;box-shadow: 0 5px 5px rgba(0,0,0,.5);border-radius: 10px;position: absolute;left: 20px;}
+.shiwu-zhong-1 div:hover{background-color: #3CB371;color: #f0fff0}
+.shiwu-zhong-1 div:active{background-color: #458b74;color: #e0eee0}
+.shiwu-zhong-2{height: 220px;border:1px ;padding: 0 20%;display: none;}
+.shiwu-zhong-20{height: 220px;border:1px ;padding: 0 20%;display: block;border-radius: 10px;position:absolute;right: -55px;top: 100px;}
+.shiwu-zhong-2-01{position: absolute;left: 55px;top:5px;}
+.shiwu-zhong-2-02{position: absolute;left: 55px;top:40px;}
+.shiwu-zhong-2-03{position: absolute;left: 55px;top:90px;}
+.shiwu-zhong-2-04{position: absolute;left: 55px;top:120px;}
+.shiwu-zhong-2-05{position: absolute;left: 55px;top:150px;}
+.shiwu-zhong-2-07{position: absolute;left: 55px;top: 180px;}
+.shiwu-zhong-2-06{position: absolute;left: 290px;top:180px;background-color: #ee7600;color: #ffffff;font-size: 13px;width: 45px;height: 20px;text-align: center;cursor: pointer;border-radius: 5px;}
+.shiwu-zhong-2-06:hover{background-color: #cd661d;}
+.shiwu-zhong-2-06:active{box-shadow: inset 0 1px 5px rgba(0,0,0,.5)}
+.shiwu-zhong-3{height: 634px;border:1px ;}
+.shiwu-zhong-3-01{width: 800px;height: 25px;margin: auto;border:1px ;text-align: center;font-size: 18px;box-shadow: 0 3px 2px rgba(0,0,0,.5);background-color:#696969;position: relative;}
+.shiwu-zhong-3-02{width: 800px;height: 622px;margin: auto;border:1px solid #cccc;overflow: auto;overflow-x: hidden;border-top:none;}
+.shiwu-zhong-3-02-fabu{animation: mysec 1s;background-color: #f7f7f7;height: 30px;width: 780px;margin:6px auto;box-shadow: 0 3px 2px rgba(0,0,0,.5);position: relative;font-size: 20px;}
+.shiwu-zhong-3-02-fabu1{display: none;}
+.shiwu-zhong-3-02-fabu:hover{box-shadow: 0 5px 5px rgba(0,0,0,.5);background-color: #eee9e9;cursor: pointer;}
+.fabu-gonggao-1{display:inline-block;text-align: center;line-height: 25px;}
+.fabu-gonggao-2{display:inline-block;text-align: center;line-height: 25px;}
+.fabu-gonggao-3{display:inline-block;text-align: center;line-height: 25px;}
+.fabu-gonggao-4{display:inline-block;text-align: center;line-height: 25px;}
+.fabu-gonggao-5{display:inline-block;text-align: center;line-height: 25px;}
+.fabu-gonggao-6{display: none;}
+#fabu-chazhao-1{position: absolute;right: 222px;top: 2px;background-color: #ee7600;color: #ffffff;width: 45px;height: 20px;border-radius: 5px;cursor: pointer;}
+#fabu-chazhao-1:hover{background-color: #cd661d;}
+#fabu-chazhao-1:active{box-shadow: inset 0 1px 5px rgba(0,0,0,.5)}
+#shiwu-right{width: 50px;display: inline-block;position: relative;left: 1700px;top: -550px;}
+
+.footer{padding: 0 auto;border: 1px;background-color: #cccccc;margin: 5px 0 0 0;}
+.footer-zhong{width: 1152px;border: 1px ;margin: auto;padding:20px 0;}
+.footer-zhong-1{width: 24.5%;display: inline-block;border: 1px ;margin: auto;}
+.footer-zhong-2{height: 150px;width: 80%;margin: auto;border: 1px ;padding:5px 10px;text-align: left;background-color:#696969;opacity: 0.9;color: white;box-shadow: 0px 2px 2px rgba(0,0,0,.5), inset 0px 0px 0px rgba(0,0,0, .3);}
+.footer-zhong-2 a{text-decoration: none;color:white;line-height: 20px;margin: auto;cursor: pointer;}
+.footer-zhong-2 a:hover{color: black;font-weight: bold;font-size: 12px; }
+
+@keyframes mysec{from{box-shadow: 0 0 0 rgba(0,0,0,0);background-color: #f8f8ff ;top: -8px;opacity: 0;}to{box-shadow: 0 3px 2px rgba(0,0,0,.5);background-color: #f7f7f7;top: 0px;opacity: 1;}}
