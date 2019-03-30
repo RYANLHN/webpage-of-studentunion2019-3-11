@@ -47,7 +47,7 @@ window.onload=function () {
 	}
 	prev.onclick=function(){
       if (!animated) { an(305)};
-	}// body...
+	}
 
 	tplz.onmouseout =play;
 	tplz.onmouseover=stop;

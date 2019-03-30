@@ -7,12 +7,12 @@ window.onscroll=function shosdf(){
         footer.className='footer';
       }
      
-}
+}//滑动到底模块闪烁
 
 
 function guiding() {
 	alert('请遵守以下规定')// body...
-}
+}//弹出使用规则
 
 function zhankai(){
 var zuzhi=document.getElementById('input-zuzhi-1').value;
@@ -26,7 +26,7 @@ var riqi=document.getElementById('input-riqi-1').value;
 	var shenqing=document.getElementById('shenqing');
 	shenqing.className='map-zhong-6';
 }
-}
+}//点击下一步，展开选择地图
 
 
 
@@ -60,49 +60,46 @@ newnode.innerHTML='<div class="map-zhong-gonggao-1-logo">批条</div><div class=
 
 fabu.insertBefore( newnode,fabu.childNodes[0]);
 
+}//提交后生成并显示批条，还有各种不符合内容填写的通知事件触发
+
 var sushe=document.getElementsByName('sushe');
 for(var i=0;i<sushe.length;i++){
 	if (sushe[i].className=='sushe-box-select') {
 		(sushe[i].onclick())
 	}
-}
-}
+}//提交后让地图的选择清除
 
-}
+
+}//点击确认提交按钮执行代码
  
-
+window.onload=function(){
+	var sushe=document.getElementsByName('sushe');
+    for(var i=0;i<sushe.length;i++){
+	select(sushe[i]);
+    }
+}
 
 function select(obj){
 	obj.onclick=function(){
 		var tips=document.getElementById('tips');
 	    var ming=obj.getAttribute('id');
-   if (obj.className=='sushe-box-select') {
-      obj.className='sushe-box';
+        if (obj.className=='sushe-box-select') {
+         obj.className='sushe-box';
         var thisloudong=document.getElementById('0'+ming);
         tips.removeChild(thisloudong);
-   }else{
-   	obj.className='sushe-box-select';
-   var loudong=document.createElement('span');
-   loudong.id=('0'+ming);
-   tips.appendChild(loudong);
-   var name=ming.toString();
-   loudong.innerHTML=(name.substring(5)+'栋、');
+        }else{
+   	    obj.className='sushe-box-select';
+        var loudong=document.createElement('span');
+        loudong.id=('0'+ming);
+        tips.appendChild(loudong);
+        var name=ming.toString();
+        loudong.innerHTML=(name.substring(5)+'栋、');
    
-   }
-	}
-	
-	
-   
-}
+        }
+	} 
+}//选中或不选中地图按钮
 
 
-window.onload=function(){
-	var sushe=document.getElementsByName('sushe');
-for(var i=0;i<sushe.length;i++){
-	select(sushe[i]);
-	
-}
-}
 
 
 function fantang(){

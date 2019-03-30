@@ -1,14 +1,43 @@
-window.onscroll=function shosdf(){
-     
-      var footer=document.getElementById('footer');
-      if (document.documentElement.scrollTop+document.documentElement.clientHeight>=document.documentElement.scrollHeight) {
-        footer.className='footer2';
-      }else if(document.documentElement.scrollTop+document.documentElement.clientHeight<document.documentElement.scrollHeight){
-        footer.className='footer';
-      }
-     
-}
 
+
+window.onload=function(){
+        var btt=document.getElementById('btt');
+        var anim = true;
+        var timer=null;
+
+        btt.onclick=function(){
+         timer=setInterval(function(){
+        var sct=document.documentElement.scrollTop; 
+        var ispeed=sct/10;
+          document.documentElement.scrollTop=sct-ispeed;
+          anim=true;
+
+          if (sct==0) {clearInterval(timer);}
+
+        },30)
+        }
+        
+        window.onscroll=function(){
+          
+            if(!anim){clearInterval(timer)};
+            anim=false;
+
+            var sct=document.documentElement.scrollTop||document.body.scrollTop; 
+            if(sct>=600){btt.className='fanding-button'}
+              else if(sct<600){btt.className='fanding-button-none'}
+
+            var footer=document.getElementById('footer');
+          var height=document.documentElement.clientHeight||document.body.clientHeight;
+            if (sct+height>=document.documentElement.scrollHeight) {
+              footer.className='footer2';
+            }else if(sct+height<document.documentElement.scrollHeight){
+              footer.className='footer';
+            }
+            
+          }
+        
+        
+      }
 
 
 function cha(){

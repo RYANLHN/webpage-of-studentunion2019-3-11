@@ -35,8 +35,8 @@ div{display: block;}
 .map-zhong-3{position: relative;height: 450px;border: 1px ;display: none;}
 .map-zhong-5{animation: myfifth 0.6s;position: relative;height: 450px;border: 1px solid #696969;display: block;border-radius: 5px;z-index: 1;}
 .sushe-box:hover{background-color: #cd661d;height: 40px;width: 40px;z-index: 2;text-align: center;font-size: 20px;font-weight: bold;color: #ffffff;line-height: 35px;}
-.sushe-box:active{background-color: #696969;text-align: center;font-size: 20px;font-weight: bold;color: #ffffff;line-height: 35px;}
-.sushe-box-select{background-color: #696969;height: 40px;width: 40px;z-index: 2;cursor: pointer;text-align: center;font-size: 20px;font-weight: bold;color: #ffffff;line-height: 35px;}
+.sushe-box:active{background-color: #454545;text-align: center;font-size: 20px;font-weight: bold;color: #ffffff;line-height: 35px;}
+.sushe-box-select{background-color: #454545;height: 40px;width: 40px;z-index: 2;cursor: pointer;text-align: center;font-size: 20px;font-weight: bold;color: #ffffff;line-height: 35px;}
 .sushe-box{background-color: #ee7621;height: 40px;width: 40px;z-index: 2;cursor: pointer;text-align: center;font-size: 20px;font-weight: bold;color: #ee7621;}
 .map-title{position: absolute;left: 310px;top: 30px;font-size: 20px;}
 .map-title span{font-size: 20px;background-color: #ee7600;}
